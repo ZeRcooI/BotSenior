@@ -1,16 +1,18 @@
 from aiogram import F, types, Router
 from string import punctuation
 from filters.chat_types import ChatTypeFilter
+from aiogram.filters import CommandStart
 
 user_group_router = Router()
 user_group_router.message.filter(ChatTypeFilter(['group', 'supergroup']))
 
-restricted_words = {
-    'пизда', 'ебать', 'сука', 'нахуй', 'долбоеб', 'чмо', 'тварь', 'гондон', 'пиздец',
-    'заебал', 'гандон', 'еблан', 'курва', 'нахуя', 'заебать', 'уебок', 'пидор', 'заебете',
-    'пизду', 'говно', 'сучка', 'ахуели', 'уёбок', 'ублюдок', 'ебанат', 'заебёте', 'пиздюк',
-    'шлюха', 'гавно', 'ебанутый', 'хуя', 'ебучий', 'ахуеть', 'ахуела', 'хуяк', 'шлюхи',
-    'пизды', 'бля', 'ебаное', 'ахуела', 'блять', 'пидорасина', 'пидорас'
+
+@user_group_router.message(CommandStart())
+async def start_cmd(message: types.Message):
+    await message.answer("Денис, пуш!")
+
+bad_habits = {
+    'курить', 'курил', 'покурю', 'покурил'
 }
 
 
@@ -21,7 +23,7 @@ def clean_text(text: str):
 @user_group_router.edited_message()
 @user_group_router.message()
 async def cleaner(message: types.Message):
-    if restricted_words.intersection(clean_text(message.text.lower()).split()):
-        await message.answer(f"{message.from_user.username}, дурной чтоль, ты чё ругаешься?!")
+    if bad_habits.intersection(clean_text(message.text.lower()).split()):
+        await message.answer(f"{message.from_user.username}, курить он пошёл, ну ну...")
         await message.delete()
         # await message.chat.ban(message.from_user.id)
