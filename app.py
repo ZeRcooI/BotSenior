@@ -23,6 +23,7 @@ dp = Dispatcher()
 
 dp.include_router(user_private_router)
 dp.include_router(user_group_router)
+dp.include_router(admin_router)
 
 
 async def main():

@@ -1,0 +1,547 @@
+[
+    {
+        "label": "BotCommand",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "KeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "Filter",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "StateFilter",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "CommandStart",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "CommandStart",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "or_f",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Dispatcher",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "StatesGroup",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "FSMContext",
+        "importPath": "aiogram.fsm.context",
+        "description": "aiogram.fsm.context",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.context",
+        "documentation": {}
+    },
+    {
+        "label": "ChatTypeFilter",
+        "importPath": "filters.chat_types",
+        "description": "filters.chat_types",
+        "isExtraImport": true,
+        "detail": "filters.chat_types",
+        "documentation": {}
+    },
+    {
+        "label": "IsAdmin",
+        "importPath": "filters.chat_types",
+        "description": "filters.chat_types",
+        "isExtraImport": true,
+        "detail": "filters.chat_types",
+        "documentation": {}
+    },
+    {
+        "label": "ChatTypeFilter",
+        "importPath": "filters.chat_types",
+        "description": "filters.chat_types",
+        "isExtraImport": true,
+        "detail": "filters.chat_types",
+        "documentation": {}
+    },
+    {
+        "label": "ChatTypeFilter",
+        "importPath": "filters.chat_types",
+        "description": "filters.chat_types",
+        "isExtraImport": true,
+        "detail": "filters.chat_types",
+        "documentation": {}
+    },
+    {
+        "label": "get_keyboard",
+        "importPath": "kbds.reply",
+        "description": "kbds.reply",
+        "isExtraImport": true,
+        "detail": "kbds.reply",
+        "documentation": {}
+    },
+    {
+        "label": "get_keyboard",
+        "importPath": "kbds.reply",
+        "description": "kbds.reply",
+        "isExtraImport": true,
+        "detail": "kbds.reply",
+        "documentation": {}
+    },
+    {
+        "label": "punctuation",
+        "importPath": "string",
+        "description": "string",
+        "isExtraImport": true,
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "restricted_words",
+        "importPath": "common.restricted_words",
+        "description": "common.restricted_words",
+        "isExtraImport": true,
+        "detail": "common.restricted_words",
+        "documentation": {}
+    },
+    {
+        "label": "ParseMode",
+        "importPath": "aiogram.enums",
+        "description": "aiogram.enums",
+        "isExtraImport": true,
+        "detail": "aiogram.enums",
+        "documentation": {}
+    },
+    {
+        "label": "ParseMode",
+        "importPath": "aiogram.enums",
+        "description": "aiogram.enums",
+        "isExtraImport": true,
+        "detail": "aiogram.enums",
+        "documentation": {}
+    },
+    {
+        "label": "as_list",
+        "importPath": "aiogram.utils.formatting",
+        "description": "aiogram.utils.formatting",
+        "isExtraImport": true,
+        "detail": "aiogram.utils.formatting",
+        "documentation": {}
+    },
+    {
+        "label": "as_marked_section",
+        "importPath": "aiogram.utils.formatting",
+        "description": "aiogram.utils.formatting",
+        "isExtraImport": true,
+        "detail": "aiogram.utils.formatting",
+        "documentation": {}
+    },
+    {
+        "label": "Bold",
+        "importPath": "aiogram.utils.formatting",
+        "description": "aiogram.utils.formatting",
+        "isExtraImport": true,
+        "detail": "aiogram.utils.formatting",
+        "documentation": {}
+    },
+    {
+        "label": "ReplyKeyboardBuilder",
+        "importPath": "aiogram.utils.keyboard",
+        "description": "aiogram.utils.keyboard",
+        "isExtraImport": true,
+        "detail": "aiogram.utils.keyboard",
+        "documentation": {}
+    },
+    {
+        "label": "private",
+        "importPath": "common.bot_cmds_list",
+        "description": "common.bot_cmds_list",
+        "isExtraImport": true,
+        "detail": "common.bot_cmds_list",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultBotProperties",
+        "importPath": "aiogram.client.default",
+        "description": "aiogram.client.default",
+        "isExtraImport": true,
+        "detail": "aiogram.client.default",
+        "documentation": {}
+    },
+    {
+        "label": "admin_router",
+        "importPath": "handlers.admin_private",
+        "description": "handlers.admin_private",
+        "isExtraImport": true,
+        "detail": "handlers.admin_private",
+        "documentation": {}
+    },
+    {
+        "label": "user_group_router",
+        "importPath": "handlers.user_group",
+        "description": "handlers.user_group",
+        "isExtraImport": true,
+        "detail": "handlers.user_group",
+        "documentation": {}
+    },
+    {
+        "label": "user_private_router",
+        "importPath": "handlers.user_private",
+        "description": "handlers.user_private",
+        "isExtraImport": true,
+        "detail": "handlers.user_private",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "find_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "private",
+        "kind": 5,
+        "importPath": "common.bot_cmds_list",
+        "description": "common.bot_cmds_list",
+        "peekOfCode": "private = [\n    BotCommand(command='menu', description=\"Посмотреть меню\"),\n    BotCommand(command='about', description=\"О нас\"),\n    BotCommand(command='payment', description=\"Варианты оплаты\"),\n    BotCommand(command='shipping', description=\"Варианты доставки\")\n]",
+        "detail": "common.bot_cmds_list",
+        "documentation": {}
+    },
+    {
+        "label": "restricted_words",
+        "kind": 5,
+        "importPath": "common.restricted_words",
+        "description": "common.restricted_words",
+        "peekOfCode": "restricted_words = {\n    'курить', 'курил', 'покурю', 'покурил'\n}",
+        "detail": "common.restricted_words",
+        "documentation": {}
+    },
+    {
+        "label": "ChatTypeFilter",
+        "kind": 6,
+        "importPath": "filters.chat_types",
+        "description": "filters.chat_types",
+        "peekOfCode": "class ChatTypeFilter(Filter):\n    def __init__(self, chat_types: list[str]) -> None:\n        self.chat_types = chat_types\n    async def __call__(self, message: types.Message) -> bool:\n        return message.chat.type in self.chat_types\nclass IsAdmin(Filter):\n    def __init__(self) -> None:\n        pass\n    async def __call__(self, message: types.Message, bot: Bot) -> bool:\n        return message.from_user.id in bot.my_admins_list",
+        "detail": "filters.chat_types",
+        "documentation": {}
+    },
+    {
+        "label": "IsAdmin",
+        "kind": 6,
+        "importPath": "filters.chat_types",
+        "description": "filters.chat_types",
+        "peekOfCode": "class IsAdmin(Filter):\n    def __init__(self) -> None:\n        pass\n    async def __call__(self, message: types.Message, bot: Bot) -> bool:\n        return message.from_user.id in bot.my_admins_list",
+        "detail": "filters.chat_types",
+        "documentation": {}
+    },
+    {
+        "label": "AddProduct",
+        "kind": 6,
+        "importPath": "handlers.admin_private",
+        "description": "handlers.admin_private",
+        "peekOfCode": "class AddProduct(StatesGroup):\n    name = State()\n    description = State()\n    price = State()\n    image = State()\n# Код ниже для машины состояний (FSM)\n@admin_router.message(StateFilter(None), F.text == \"Добавить товар\")\nasync def add_product(message: types.Message, state: FSMContext):\n    await message.answer(\n        \"Введите название товара\", reply_markup=types.ReplyKeyboardRemove()",
+        "detail": "handlers.admin_private",
+        "documentation": {}
+    },
+    {
+        "label": "admin_router",
+        "kind": 5,
+        "importPath": "handlers.admin_private",
+        "description": "handlers.admin_private",
+        "peekOfCode": "admin_router = Router()\nadmin_router.message.filter(ChatTypeFilter([\"private\"]), IsAdmin())\nADMIN_KB = get_keyboard(\n    \"Добавить товар\",\n    \"Изменить товар\",\n    \"Удалить товар\",\n    \"Я так, просто посмотреть зашел\",\n    placeholder=\"Выберите действие\",\n    sizes=(2, 1, 1),\n)",
+        "detail": "handlers.admin_private",
+        "documentation": {}
+    },
+    {
+        "label": "ADMIN_KB",
+        "kind": 5,
+        "importPath": "handlers.admin_private",
+        "description": "handlers.admin_private",
+        "peekOfCode": "ADMIN_KB = get_keyboard(\n    \"Добавить товар\",\n    \"Изменить товар\",\n    \"Удалить товар\",\n    \"Я так, просто посмотреть зашел\",\n    placeholder=\"Выберите действие\",\n    sizes=(2, 1, 1),\n)\n@admin_router.message(Command(\"admin\"))\nasync def add_product(message: types.Message):",
+        "detail": "handlers.admin_private",
+        "documentation": {}
+    },
+    {
+        "label": "clean_text",
+        "kind": 2,
+        "importPath": "handlers.user_group",
+        "description": "handlers.user_group",
+        "peekOfCode": "def clean_text(text: str):\n    return text.translate(str.maketrans('', '', punctuation))\n@user_group_router.edited_message()\n@user_group_router.message()\nasync def cleaner(message: types.Message):\n    if restricted_words.intersection(clean_text(message.text.lower()).split()):\n        await message.answer(\n            f\"{message.from_user.username}, курить он ушёл, ну ну....\"\n        )\n        await message.delete()",
+        "detail": "handlers.user_group",
+        "documentation": {}
+    },
+    {
+        "label": "user_group_router",
+        "kind": 5,
+        "importPath": "handlers.user_group",
+        "description": "handlers.user_group",
+        "peekOfCode": "user_group_router = Router()\nuser_group_router.message.filter(ChatTypeFilter(['group', 'supergroup']))\nuser_group_router.edited_message.filter(\n    ChatTypeFilter(['group', 'supergroup']))\n@user_group_router.message(Command('admin'))\nasync def get_admins(message: types.Message, bot: Bot):\n    chat_id = message.chat.id\n    admins_list = await bot.get_chat_administrators(chat_id)\n    # просмотреть все данные и свойства полученных объектов\n    # print(admins_list)",
+        "detail": "handlers.user_group",
+        "documentation": {}
+    },
+    {
+        "label": "user_private_router",
+        "kind": 5,
+        "importPath": "handlers.user_private",
+        "description": "handlers.user_private",
+        "peekOfCode": "user_private_router = Router()\nuser_private_router.message.filter(ChatTypeFilter(['private']))\n@user_private_router.message(CommandStart())\nasync def start_cmd(message: types.Message):\n    await message.answer(\n        \"Рождён, чтобы ебашить!\",\n        reply_markup=get_keyboard(\n            \"Меню\",\n            \"Про бота\",\n            \"Варианты оплаты\",",
+        "detail": "handlers.user_private",
+        "documentation": {}
+    },
+    {
+        "label": "get_keyboard",
+        "kind": 2,
+        "importPath": "kbds.reply",
+        "description": "kbds.reply",
+        "peekOfCode": "def get_keyboard(\n    *btns: str,\n    placeholder: str = None,\n    request_contact: int = None,\n    request_location: int = None,\n    sizes: tuple[int] = (2,),\n):\n    '''\n    Parameters request_contact and request_location must be as indexes of btns args for buttons you need.\n    Example:",
+        "detail": "kbds.reply",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_UPDATES",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "ALLOWED_UPDATES = ['message, edited_message']\nbot = Bot(token=os.getenv('TOKEN'),\n          default=DefaultBotProperties(parse_mode=ParseMode.HTML))\nbot.my_admins_list = []\ndp = Dispatcher()\ndp.include_router(user_private_router)\ndp.include_router(user_group_router)\ndp.include_router(admin_router)\nasync def main():\n    await bot.delete_webhook(drop_pending_updates=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "bot = Bot(token=os.getenv('TOKEN'),\n          default=DefaultBotProperties(parse_mode=ParseMode.HTML))\nbot.my_admins_list = []\ndp = Dispatcher()\ndp.include_router(user_private_router)\ndp.include_router(user_group_router)\ndp.include_router(admin_router)\nasync def main():\n    await bot.delete_webhook(drop_pending_updates=True)\n    await bot.set_my_commands(commands=private, scope=types.BotCommandScopeAllPrivateChats())",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "bot.my_admins_list",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "bot.my_admins_list = []\ndp = Dispatcher()\ndp.include_router(user_private_router)\ndp.include_router(user_group_router)\ndp.include_router(admin_router)\nasync def main():\n    await bot.delete_webhook(drop_pending_updates=True)\n    await bot.set_my_commands(commands=private, scope=types.BotCommandScopeAllPrivateChats())\n    await dp.start_polling(bot, allowed_updates=ALLOWED_UPDATES)\nasyncio.run(main())",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "dp",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "dp = Dispatcher()\ndp.include_router(user_private_router)\ndp.include_router(user_group_router)\ndp.include_router(admin_router)\nasync def main():\n    await bot.delete_webhook(drop_pending_updates=True)\n    await bot.set_my_commands(commands=private, scope=types.BotCommandScopeAllPrivateChats())\n    await dp.start_polling(bot, allowed_updates=ALLOWED_UPDATES)\nasyncio.run(main())",
+        "detail": "app",
+        "documentation": {}
+    }
+]

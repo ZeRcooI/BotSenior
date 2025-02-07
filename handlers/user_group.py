@@ -36,9 +36,9 @@ def clean_text(text: str):
 @user_group_router.edited_message()
 @user_group_router.message()
 async def cleaner(message: types.Message):
-    if restricted_words.intersection(clean_text(message.text.lower().split())):
+    if restricted_words.intersection(clean_text(message.text.lower()).split()):
         await message.answer(
-            f'{message.from_user.username}, курить он ушёл, ну ну....'
+            f"{message.from_user.username}, курить он ушёл, ну ну...."
         )
         await message.delete()
         # await message.chat.ban(message.from_user.id)
