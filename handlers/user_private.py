@@ -2,7 +2,7 @@ from aiogram import F, types, Router
 from aiogram.filters import CommandStart
 
 from sqlalchemy.ext.asyncio import AsyncSession
-from database.orm_query import (
+from database.orm_querry import (
     orm_add_to_cart,
     orm_add_user,
 )
