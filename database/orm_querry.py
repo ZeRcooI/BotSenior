@@ -25,7 +25,7 @@ async def orm_get_product(session: AsyncSession, product_id: int):
     return result.scalar()
 
 async def orm_update_product(session: AsyncSession, product_id: int, data):
-    query = update(Product).where(Product.id == product_id).valyes(
+    query = update(Product).where(Product.id == product_id).values(
         name = data['name'],
         description = data['description'],
         price = float(data['price']),
