@@ -9,7 +9,7 @@
       <option name="fileExtension" value="py" />
       <option name="immediateSync" value="true" />
       <option name="name" value="autopep8" />
-      <option name="output" value="$FilePath$" />
+      <option name="output" value="" />
       <option name="outputFilters">
         <array />
       </option>
