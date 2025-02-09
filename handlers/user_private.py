@@ -1,5 +1,5 @@
 from aiogram import F, types, Router
-from aiogram.enums import ParseMode
+# from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart, Command, or_f
 from aiogram.utils.formatting import as_list, as_marked_section, Bold
 
@@ -20,23 +20,24 @@ async def start_cmd(message: types.Message):
             "Варианты оплаты",
             "Варианты доставки",
             placeholder="Что вас интересует?",
-            sizes=(2, 2)
+            sizes=(2,)
         ))
 
 
-@user_private_router.message(or_f(Command('menu'), (F.text.lower() == 'меню')))
+@user_private_router.message(or_f(Command('menu'),
+                             F.text.lower() == 'меню'))
 async def menu_cmd(message: types.Message):
-    await message.answer("Вот меню: ")
+    await message.answer("Вот меню, получай: ")
 
 
-@user_private_router.message(F.text.lower() == "Про бота")
-@user_private_router.message(Command('about'))
+@user_private_router.message(or_f(Command("about"),
+                             F.text.lower() == 'про бота'))
 async def about_cmd(message: types.Message):
-    await message.answer("Про бота: ")
+    await message.answer("Что может бот: ")
 
 
-@user_private_router.message(F.text.lower() == "Варианты оплаты")
-@user_private_router.message(Command("payment"))
+@user_private_router.message(or_f(Command("payment"),
+                                  F.text.lower() == "варианты оплаты"))
 async def payment_cmd(message: types.Message):
     text = as_marked_section(
         Bold("Варианты оплаты:"),
@@ -48,9 +49,9 @@ async def payment_cmd(message: types.Message):
     await message.answer(text.as_html())
 
 
-@user_private_router.message(
-    (F.text.lower().contains("доставк")) | (F.text.lower() == "Варианты доставки"))
-@user_private_router.message(Command("shipping"))
+@user_private_router.message(or_f(Command("shipping"),
+                                  F.text.lower().contains("доставк"),
+                                  F.text.lower() == "варианты доставки"))
 async def menu_cmd(message: types.Message):
     text = as_list(
         as_marked_section(
