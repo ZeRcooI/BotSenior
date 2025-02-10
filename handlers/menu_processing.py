@@ -8,7 +8,7 @@ from database.orm_query import (
     orm_get_categories,
     orm_get_products,
     orm_get_user_carts,
-    orm_reduce_product_in_cart, Paginator,
+    orm_reduce_product_in_cart,
 )
 from kbds.inline import (
     get_products_btns,
@@ -16,6 +16,8 @@ from kbds.inline import (
     get_user_catalog_btns,
     get_user_main_btns,
 )
+
+from utils.paginator import Paginator
 
 
 async def main_menu(session, level, menu_name):
@@ -57,7 +59,7 @@ async def products(session, level, category, page):
     image = InputMediaPhoto(
         media=product.image,
         caption=f"<strong>{product.name}\
-                </strong>\n{product.description}\nСтоимость: {round(product.price, 2)}р\n\
+                </strong>\n{product.description}\nСтоимость: {round(product.price, 2)}\n\
                 <strong>Товар {paginator.page} из {paginator.pages}</strong>",
     )
 
@@ -112,7 +114,7 @@ async def carts(session, level, menu_name, page, user_id, product_id):
         )
         image = InputMediaPhoto(
             media=cart.product.image,
-            caption=f"<strong>{cart.product.name}</strong>\n{cart.product.price}р x {cart.quantity} = {cart_price}р\
+            caption=f"<strong>{cart.product.name}</strong>\n{cart.product.price}$ x {cart.quantity} = {cart_price}$\
                     \nТовар {paginator.page} из {paginator.pages} в корзине.\nОбщая стоимость товаров в корзине {total_price}",
         )
 
