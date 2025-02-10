@@ -28,8 +28,11 @@ async def get_menu_content(
         session: AsyncSession,
         level: int,
         menu_name: str,
+        category: int | None = None
 ):
     if level == 0:
         return await main_menu(session, level, menu_name)
     elif level == 1:
         return await catalog(session, level, menu_name)
+    elif level == 2:
+        return await products()
