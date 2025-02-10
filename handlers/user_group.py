@@ -36,6 +36,9 @@ def clean_text(text: str):
 @user_group_router.edited_message()
 @user_group_router.message()
 async def cleaner(message: types.Message):
+    if not message.text:  # Если message.text == None, выходим
+        return
+
     if restricted_words.intersection(clean_text(message.text.lower()).split()):
         await message.answer(
             f"{message.from_user.first_name}, соблюдайте порядок в чате!"

@@ -50,7 +50,7 @@ def get_user_catalog_btns(*, level: int, categories: list, sizes: tuple[int] = (
     return keyboard.adjust(*sizes).as_markup()
 
 
-def get_product_btns(
+def get_products_btns(
         *,
         level: int,
         category: int,
