@@ -5,7 +5,7 @@ from aiogram.fsm.state import State, StatesGroup
 
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from database.orm_querry import (
+from database.orm_query import (
     orm_change_banner_image,
     orm_get_categories,
     orm_add_product,
