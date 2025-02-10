@@ -14,4 +14,4 @@
 
 Бот обеспечивает удобное управление заказами как для клиентов, так и для администраторов кафе.  
 
-[![Смотреть видео на RuTube](https://upload.wikimedia.org/wikipedia/commons/6/69/RuTube_Logo.png)](https://rutube.ru/video/private/b792bc8af1de04789b546962e700ab39/?p=96up4yk6Y9Ea_c21wpqx2w)
+[Смотреть видео на RuTube](https://rutube.ru/video/private/b792bc8af1de04789b546962e700ab39/?p=96up4yk6Y9Ea_c21wpqx2w)
