@@ -8,18 +8,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 class MenuCallBack(CallbackData, prefix='menu'):
     level: int
     menu_name: str
-
-
-def get_callback_btns(
-        *,
-        btns: dict[str, str],
-        sizes: tuple[int] = (2,)):
-    keyboard = InlineKeyboardBuilder()
-
-    for text, data in btns.items():
-        keyboard.add(InlineKeyboardButton(text=text, callback_data=data))
-
-    return keyboard.adjust(*sizes).as_markup()
+    category: int | None = None
 
 
 def get_user_main_btns(*, level: int, sizes: tuple[int] = (2,)):
@@ -44,28 +33,28 @@ def get_user_main_btns(*, level: int, sizes: tuple[int] = (2,)):
     return keyboard.adjust(*sizes).as_markup()
 
 
-def get_url_btns(
-        *,
-        btns: dict[str, str],
-        sizes: tuple[int] = (2,)):
+def get_user_catalog_btns(*, level: int, categories: list, sizes: tuple[int] = (2,)):
     keyboard = InlineKeyboardBuilder()
 
-    for text, url in btns.items():
-        keyboard.add(InlineKeyboardButton(text=text, callback_data=url))
+    keyboard.add(InlineKeyboardButton(text='Назад',
+                                      callback_data=MenuCallBack(level=level - 1, menu_name='main').pack()))
+    keyboard.add(InlineKeyboardButton(text='Корзина 🛒',
+                                      callback_data=MenuCallBack(level=3, menu_name='cart').pack()))
 
+    for c in categories:
+        keyboard.add(InlineKeyboardButton(text=c.name,
+                                          callback_data=MenuCallBack(level=level + 1, menu_name=c.name,
+                                                                     category=c.id).pack()))
     return keyboard.adjust(*sizes).as_markup()
 
 
-def get_inlineMix_btns(
+def get_callback_btns(
         *,
         btns: dict[str, str],
         sizes: tuple[int] = (2,)):
     keyboard = InlineKeyboardBuilder()
 
-    for text, value in btns.items():
-        if '://' in value:
-            keyboard.add(InlineKeyboardButton(text=text, url=value))
-        else:
-            keyboard.add(InlineKeyboardButton(text=text, callback_data=value))
+    for text, data in btns.items():
+        keyboard.add(InlineKeyboardButton(text=text, callback_data=data))
 
     return keyboard.adjust(*sizes).as_markup()
